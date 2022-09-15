@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Le Hoa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-15 08:07:49 PM"/>
+        <attribute name="created" value="TGUgSG9hO0xBUFRPUC1VMTRKT0NGUjsyMDIyLTA5LTE1OzA3OjQ2OjQ1IFBNOzI4NDc="/>
+        <attribute name="edited" value="TGUgSG9hO0xBUFRPUC1VMTRKT0NGUjsyMDIyLTA5LTE1OzA4OjA3OjQ5IFBNOzM7Mjk1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <output expression="&quot;Nhap a&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a&lt;&gt;0">
+                <then>
+                    <declare name="b" type="Real" array="False" size=""/>
+                    <output expression="&quot;Nhap b&quot;" newline="True"/>
+                    <input variable="b"/>
+                    <declare name="x" type="Real" array="False" size=""/>
+                    <assign variable="x" expression="-b/a"/>
+                    <output expression="x" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Vo so nghiem&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
